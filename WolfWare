@@ -1,0 +1,28 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Wolf-Ware v1.5", "Synapse")
+local Tab = Window:NewTab("Scripts")
+local Section = Tab:NewSection("Scripts")
+Section:NewButton("Infinite Yield X", "Loads Infinite Yield X", function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+Section:NewButton("Swag Mode (Da-Hood)", "Loads Swag Mode (Da-Hood)", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+end)
+
+Section:NewButton("Faded (Da-Hood)", "Loads Faded (Da-Hood)", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+Section:NewButton("Blox Fruit", "Loads BloxFruit", function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+Section:NewButton("RobloxNotepad.exe", "Loads RobloxNotepad.exe", function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/Xxerlfwerlf/RobloxNotepad/main/RobloxNotePad")()
+end)
+
+Section:NewButton("Vape Bedwars", "Loads Vape Bedwars", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
