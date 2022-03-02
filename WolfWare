@@ -30,4 +30,9 @@ Section:NewButton("CMD-X", "Loads CMD-X", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 end)
 
+Section:NewButton("BigHead", "Loads BigHead", function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/Xxerlfwerlf/Big-head/main/BigHeadScript")()
+end)
+
+
 
